@@ -87,6 +87,7 @@ section.intro{
     margin-left: 10px;
     border: 2px dashed rgb(39,34,34);
     background-image: url(../img/newspaper1.jpg);
+    transform: rotate(-10deg);
 }
 div.extra2{
     position: fixed;
@@ -95,6 +96,7 @@ div.extra2{
     width: 100%;
     height: var(--bottom-bar-height);
     background-color: var(--bottom-bar-color);
+   
    
 }
 div.extra1{
@@ -105,6 +107,7 @@ div.extra1{
     height: 80%;
     z-index: -1;
     background-image: url(../img/newspaper2.jpg);
+    transform: rotate(10deg);
     
 }
 div.explanation h3, div.requirements h3, div.benefits h3, div.participation h3{
